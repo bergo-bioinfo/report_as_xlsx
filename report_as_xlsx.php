@@ -42,7 +42,7 @@ require_once "../redcap_connect.php";
             //console.log(f);
 
             // Only process csv files.
-            if (!f.type.match('text/csv') && !f.type.match('application/vnd.ms-excel')) {
+            if (!f.type.match('text/csv') && !f.type.match('application/vnd.ms-excel') && !f.type.match('application/csv')) {
                 alert("The file is not a csv file!");
                 return false ;
             }
