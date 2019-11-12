@@ -1,0 +1,28 @@
+{
+   "framework-version": 3,
+   "name": "Report as Xlxs",
+   "namespace": "Bergonie\\ReportAsXlsx",
+   "description": "Thios module enable user to export heir report as excel files",
+   "authors": [
+       {
+            "name": "Quentin Cavaillé",
+            "email": "q.cavaille@bordeaux.unicancer.fr",
+            "institution": "Institut Bergonié"
+        },
+        {
+            "name": "Yec'han Laizet",
+            "email": "y.laizet@bordeaux.unicancer.fr",
+            "institution": "Institut Bergonié"
+        }
+    ],
+   "links": {
+       "project": [
+          {
+             "name": "ReportAsXlsx",
+             "icon": "fas fa-exchange-alt",
+             "url": "report_as_xlsx.php",
+             "show-header-and-footer":true
+          }
+       ]
+   }
+}
